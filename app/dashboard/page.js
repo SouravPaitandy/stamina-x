@@ -318,7 +318,7 @@ export default function Dashboard() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Dashboard Overview */}
         <div className="mt-10 mb-4">
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Welcome back {user.displayName.split(" ")[0] || user.email.split('@')[0]}!</h1>
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Welcome back {user?.displayName?.split(" ")[0] || user?.email?.split('@')[0] || 'User'}!</h1>
           <p className="text-gray-600 dark:text-gray-400">
             Track your progress and complete today's exercises.
           </p>

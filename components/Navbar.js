@@ -72,19 +72,19 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               href="/exercises"
               className="font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition"
             >
               Exercises
-            </Link>
+            </Link> */}
             
-            <Link
+            {/* <Link
               href="/about"
               className="font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition"
             >
               About
-            </Link>
+            </Link> */}
             <div className="pl-6 border-l border-gray-200 dark:border-gray-700">
               {isLoggedIn ? (
                 <button
