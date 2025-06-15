@@ -1022,7 +1022,7 @@ export default function Dashboard() {
             <div className="text-center md:text-left mb-6 md:mb-0">
               <h2 className="text-white text-2xl font-bold mb-2">Stay Consistent!</h2>
               <p className="text-blue-100 text-sm md:text-base max-w-lg">
-                Regular practice is key to improvement. Just 10-15 minutes a day can lead to significant gains in stamina and control.
+                Regular practice is key to improvement. Just 10-15 minutes a day can lead to significant gains in stamina and control. Drink at least 2-3 l of fresh water every day.
               </p>
             </div>
             <div>
